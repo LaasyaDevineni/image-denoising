@@ -33,7 +33,6 @@ Run the script in a **Python environment** (e.g., **Jupyter Notebook** or standa
 
 **Install dependencies:** 
 
-bash
 ```
 pip install tensorflow numpy matplotlib scikit-learn
 ```
@@ -41,7 +40,7 @@ Download the Fashion MNIST dataset (done automatically in the script).
 
 **Usage**
 **Training the Model**
-The Autoencoder and Denoise models can be used for training. We used the Fashion MNIST dataset, adding Gaussian noise to create noisy versions of the images.
+The Autoencoder and Denoise models are for training. We used the Fashion MNIST dataset, adding Gaussian noise to create noisy versions of the images.
 
 **Evaluating Model Performance**
 Reconstruction: Visualize noisy and denoised images to evaluate the model's performance
