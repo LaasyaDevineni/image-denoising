@@ -31,20 +31,19 @@ The **`Autoencoder`** and **`Denoise`** models can be used for training. We used
 Run the script in a **Python environment** (e.g., **Jupyter Notebook** or standard Python script):
 
 
-**Install dependencies:** 
+## Install dependencies:
 
 ```
 pip install tensorflow numpy matplotlib scikit-learn
 ```
 Download the Fashion MNIST dataset (done automatically in the script).
 
-**Usage**
-**Training the Model**
+## Training the Model
 The Autoencoder and Denoise models are for training. We used the Fashion MNIST dataset, adding Gaussian noise to create noisy versions of the images.
 
-**Evaluating Model Performance**
+## Evaluating Model Performance
 Reconstruction: Visualize noisy and denoised images to evaluate the model's performance
 
-**Results**
+## Results
 The denoising autoencoder is able to effectively reduce noise, preserving the main structure of each image. Validation loss metrics are used to gauge the model’s performance over training epochs.
 
